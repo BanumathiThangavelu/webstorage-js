@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First js</title>
+  </head>
+  <body>
+    <h2>Demo JavaScript in Body</h2>
+    <button onclick="window.print()">Print this page</button>
+
+    <p id="demo">A Paragraph</p>
+
+    <button type="button" onclick="myFunction()">Try it</button>
+    <button type="button" onclick="document.write(5 + 6)">soln</button>;
+
+    <script>
+      function myFunction() {
+        document.getElementById("demo").innerHTML = "Paragraph changed.";
+      }
+      document.write(5 + 6);
+      window.alert(5 + 6);
+      window.alert("welcome");
+      alert(5 + 5);
+      console.log(10 + 6);
+      x = 10; // Statement 1
+      y = 10; // Statement 2
+      z = x + y; //result
+      console.log(z);
+      let person = "Hege";
+      var x, y;
+      x = 5 + 6;
+      y = x * 10;
+      document.getElementById("demo").innerHTML = y;
+      let lastname, lastName;
+      lastName = "Doe";
+      lastname = "Peterson";
+      console.log(lastName);
+      console.log(lastname);
+      //This is single line comments
+      /*This is the second line 
+      This is multiline comments*/
+    </script>
+  </body>
+</html>
