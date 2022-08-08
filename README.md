@@ -1,0 +1,2 @@
+# webstorage-js
+webstorage-js
